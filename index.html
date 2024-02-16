@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Déchetteries_MAPLIBRE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.0.1/dist/maplibre-gl.css' />
+<script src='https://unpkg.com/maplibre-gl@^2.4/dist/maplibre-gl.js'></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body,
+  #map {
+    height: 100%;
+  }
+</style>
+
+<div class="sidebar">
+  <div class="heading">
+    <h1>Déchetteries de Rennes Métropole</h1>
+  </div>
+  <div id="listings" class="listings"></div>
+</div>
+<div id="map" class="map"></div>
+<!-- partial -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
