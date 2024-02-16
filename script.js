@@ -8,7 +8,8 @@ const map = new maplibregl.Map({
   center: [-1.67, 48.11],
   zoom: 9,
   minZoom: 9,
-  scrollZoom: true
+  scrollZoom: true,
+  customAttribution : 'Baptiste LUNEL'
 });
 
 fetch('https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/decheteries_plateformes_vegetaux/exports/geojson?lang=fr&timezone=Europe%2FBerlin')
